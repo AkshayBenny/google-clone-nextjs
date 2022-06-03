@@ -3,6 +3,7 @@ import User from '../components/User';
 import { SearchIcon, XIcon } from '@heroicons/react/solid';
 import { useRouter } from 'next/router';
 import { useRef } from 'react';
+import SearchHeaderOptions from './SearchHeaderOptions';
 
 export default function SearchHeader() {
   const router = useRouter();
@@ -12,10 +13,10 @@ export default function SearchHeader() {
     e.preventDefault();
     const searchTerm = searchRef.current.value;
     if (!searchTerm.trim()) return;
-    router.push(`/search?term=${searchTerm.trim()}`);
+    router.push(`/search?term=${searchTerm.trim()}&searchType=`);
   };
   return (
-    <header className='sticky top-0 border-b-gray-200 pb-12 border-b px-3'>
+    <header className='sticky top-0 border-b-gray-200  border-b px-3'>
       <div className='flex gap-3 items-center  pt-8'>
         <Image
           onClick={() => router.push('/')}
@@ -42,9 +43,12 @@ export default function SearchHeader() {
             <SearchIcon className='border-l-2 pl-4 text-blue-400 h-6 pr-4 cursor-pointer' />
           </button>
         </form>
-        <div className=' ml-auto min-w-max cursor-pointer flex justify-center items-center'>
+        <div className='ml-auto min-w-max cursor-pointer flex justify-center items-center'>
           <User />
         </div>
+      </div>
+      <div className='pt-8 flex justify-start'>
+        <SearchHeaderOptions />
       </div>
     </header>
   );

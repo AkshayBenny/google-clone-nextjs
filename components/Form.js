@@ -5,14 +5,12 @@ import { useRouter } from 'next/router';
 function Form() {
   const searchRef = useRef(null);
   const router = useRouter();
-  // const searchValue = searchRef?.current?.value;
-  // console.log(searchValue);
 
   const searchHandler = (e) => {
     e.preventDefault();
     const searchTerm = searchRef.current.value;
     if (!searchTerm.trim()) return;
-    router.push(`/search?term=${searchTerm.trim()}`);
+    router.push(`/search?term=${searchTerm.trim()}&searchType=`);
   };
 
   return (
@@ -46,4 +44,3 @@ function Form() {
 }
 
 export default Form;
-//h-72 md:h-80 xl:h-96
