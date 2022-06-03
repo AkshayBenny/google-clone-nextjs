@@ -16,7 +16,7 @@ export default function SearchHeader() {
     router.push(`/search?term=${searchTerm.trim()}&searchType=`);
   };
   return (
-    <header className='sticky top-0 border-b-gray-200  border-b px-3'>
+    <header className='sticky top-0 border-b-gray-200 bg-white  border-b px-3'>
       <div className='flex gap-3 items-center  pt-8'>
         <Image
           onClick={() => router.push('/')}
