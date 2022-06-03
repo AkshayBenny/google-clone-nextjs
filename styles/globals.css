@@ -7,9 +7,9 @@
     @apply hover:font-medium transition hover:text-gray-600 cursor-pointer;
   }
   .bButton {
-    @apply bg-blue-500 text-white rounded px-4 py-2  cursor-pointer hover:bg-blue-600 transition;
+    @apply bg-blue-500 whitespace-nowrap text-white rounded px-4 py-2  cursor-pointer hover:bg-blue-600 transition;
   }
   .gButton {
-    @apply bg-gray-100 hover:bg-gray-200 transition font-normal p-3 rounded text-gray-600;
+    @apply bg-gray-100 whitespace-nowrap hover:bg-gray-200 transition font-normal p-3 rounded text-gray-600;
   }
 }
