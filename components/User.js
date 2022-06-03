@@ -1,13 +1,48 @@
+import { useSession, signIn, signOut } from 'next-auth/react';
+import { useEffect, useState } from 'react';
+// import Link from 'next/link';
+// import { useState } from 'react';
+// import PopUp from './PopUp';
 function User() {
-  return (
-    <div>
-      <img
-        className='h-10 w-10 object-cover rounded-full'
-        src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmFuZG9tJTIwcGVyc29ufGVufDB8fDB8fA%3D%3D&w=1000&q=80'
-        alt='profile picture'
-      />
-    </div>
-  );
+  //   const [showPopUp, setShowPopUp] = useState(false);
+  const { data: session, status } = useSession();
+  const [img, setImg] = useState('');
+  useEffect(() => {
+    if (session) {
+      setImg(session.user.image);
+    }
+  }, [session?.user?.image, session]);
+
+  if (status === 'loading') {
+    return (
+      <div>
+        <p>...</p>
+      </div>
+    );
+  }
+
+  if (!session) {
+    return (
+      <button onClick={signIn} className='bButton'>
+        Sign in
+      </button>
+    );
+  }
+
+  if (session) {
+    return (
+      <div>
+        <img
+          onClick={signOut}
+          className='h-10 w-10 object-cover rounded-full p-1 hover:bg-gray-200'
+          src={img}
+          alt={session.user.name}
+        />
+
+        {/* {showPopUp && <PopUp />} */}
+      </div>
+    );
+  }
 }
 
 export default User;
