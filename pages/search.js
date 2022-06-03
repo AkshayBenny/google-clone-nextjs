@@ -1,15 +1,22 @@
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import Result from '../components/Result';
 import SearchHeader from '../components/SearchHeader';
 import Response from '../Response';
 
-export default function search({ data }) {
-  console.log(data);
+export default function Search({ data }) {
+  const router = useRouter();
   return (
     <div>
       <Head>
-        <title>Search Page</title>
+        <title>{router.query.term}</title>
+        <link
+          rel='icon'
+          href='https://pngimg.com/uploads/google/google_PNG19635.png'
+        />
       </Head>
       <SearchHeader />
+      <Result data={data} />
     </div>
   );
 }

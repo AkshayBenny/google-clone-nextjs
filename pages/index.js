@@ -9,6 +9,10 @@ export default function Home() {
       <Head>
         <title>Google</title>
         <meta name='description' content='A google clone create my me' />
+        <link
+          rel='icon'
+          href='https://pngimg.com/uploads/google/google_PNG19635.png'
+        />
       </Head>
 
       <Header />
