@@ -15,10 +15,10 @@ function Form() {
 
   const randomSearchHandler = async (e) => {
     e.preventDefault();
-    const response =await fetch('https://random-word-api.herokuapp.com/word');
+    const response = await fetch('https://random-word-api.herokuapp.com/word');
     const word = await response.json();
-   
-    if(!word) return
+
+    if (!word) return;
     router.push(`/search?term=${word}&searchType=`);
   };
 
@@ -39,7 +39,7 @@ function Form() {
         <input
           ref={searchRef}
           type='text'
-          className='transition w-full pl-4 group bg-[#fffdfe] outline-none focus:outline-none  '
+          className='transition w-full pl-4 group  outline-none focus:outline-none  '
         />
       </div>
       <div className='flex gap-4 justify-center mt-8'>
