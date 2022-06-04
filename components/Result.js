@@ -9,7 +9,7 @@ export default function Result({ data }) {
   return (
     <div className='ml-6 sm:ml-8 md:ml-12 lg:ml-24 xl:ml-36 pb-12'>
       <About time={searchTime} results={searchResults} />
-      {data.items.map((item, index) => {
+      {data.items?.map((item, index) => {
         return (
           <div key={index} className='group py-6'>
             <a href={item.link}>

@@ -6,7 +6,7 @@ import SearchHeader from '../components/SearchHeader';
 import Response from '../Response';
 
 export default function Search({ data }) {
-  console.log(data);
+  
   const router = useRouter();
   const searchType = router.query.searchType;
   return (
@@ -30,7 +30,7 @@ export default function Search({ data }) {
 
 export async function getServerSideProps(context) {
   const query = context.query.term;
-  const mockData = true;
+  const mockData = false;
   const startIndex = context.query.start || '1';
 
   const data = mockData

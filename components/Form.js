@@ -13,6 +13,15 @@ function Form() {
     router.push(`/search?term=${searchTerm.trim()}&searchType=`);
   };
 
+  const randomSearchHandler = async (e) => {
+    e.preventDefault();
+    const response =await fetch('https://random-word-api.herokuapp.com/word');
+    const word = await response.json();
+   
+    if(!word) return
+    router.push(`/search?term=${word}&searchType=`);
+  };
+
   return (
     <form className='flex flex-col mt-40 xl:mt-52 justify-center '>
       <div className='flex justify-center items-center'>
@@ -37,7 +46,9 @@ function Form() {
         <button type='submit' onClick={searchHandler} className='gButton'>
           Google Search
         </button>
-        <button className='gButton'>Im feeling lucky</button>
+        <button onClick={randomSearchHandler} className='gButton'>
+          I&apos;m feeling lucky
+        </button>
       </div>
     </form>
   );

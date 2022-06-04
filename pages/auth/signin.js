@@ -2,14 +2,11 @@ import { getProviders, signIn } from 'next-auth/react';
 import Header from '../../components/Header';
 
 const signin = ({ providers }) => {
-  console.log(providers);
   return (
     <div className='bg-[#FFFDFE] h-screen'>
       <Header />
       <div className='flex justify-center items-center'>
-       
         {Object.values(providers).map((provider, index) => {
-          console.log(provider);
           return (
             <div key={index} className='flex my-auto flex-col'>
               <img
