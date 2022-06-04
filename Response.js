@@ -8,28 +8,30 @@ const response = {
   queries: {
     request: [
       {
-        title: 'Google Custom Search - google',
-        totalResults: '48690000000',
-        searchTerms: 'google',
+        title: 'Google Custom Search - superman',
+        totalResults: '5150000000',
+        searchTerms: 'superman',
         count: 10,
         startIndex: 1,
         inputEncoding: 'utf8',
         outputEncoding: 'utf8',
         safe: 'off',
         cx: '24f160aa21abd56f7',
+        searchType: 'image',
       },
     ],
     nextPage: [
       {
-        title: 'Google Custom Search - google',
-        totalResults: '48690000000',
-        searchTerms: 'google',
+        title: 'Google Custom Search - superman',
+        totalResults: '5150000000',
+        searchTerms: 'superman',
         count: 10,
         startIndex: 11,
         inputEncoding: 'utf8',
         outputEncoding: 'utf8',
         safe: 'off',
         cx: '24f160aa21abd56f7',
+        searchType: 'image',
       },
     ],
   },
@@ -37,419 +39,252 @@ const response = {
     title: 'go-v1',
   },
   searchInformation: {
-    searchTime: 0.623308,
-    formattedSearchTime: '0.62',
-    totalResults: '48690000000',
-    formattedTotalResults: '48,690,000,000',
+    searchTime: 0.513607,
+    formattedSearchTime: '0.51',
+    totalResults: '5150000000',
+    formattedTotalResults: '5,150,000,000',
   },
   items: [
     {
       kind: 'customsearch#result',
-      title: 'Google',
-      htmlTitle: '<b>Google</b>',
-      link: 'https://www.google.com/',
-      displayLink: 'www.google.com',
-      snippet:
-        "Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking ...",
-      htmlSnippet:
-        'Search the world&#39;s information, including webpages, images, videos and more. <b>Google</b> has many special features to help you find exactly what you&#39;re looking&nbsp;...',
-      cacheId: 'y14FcUQOGl4J',
-      formattedUrl: 'https://www.google.com/',
-      htmlFormattedUrl: 'https://www.<b>google</b>.com/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcT3X9ZpkcNrr2kAcGZuXPZTNiK1oeTXhRMCZ1UGxNLf-an4du0eriX01mc',
-            width: '320',
-            height: '112',
-          },
-        ],
-        metatags: [
-          {
-            referrer: 'origin',
-            viewport: 'width=device-width,minimum-scale=1.0',
-            google: 'notranslate',
-            'format-detection': 'telephone=no',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png',
-          },
-        ],
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Google Hangouts - Get Started with Hangouts on Desktop or Mobile',
+      title: "Superman '78 Is the Sequel Fans Always Wanted | Den of Geek",
       htmlTitle:
-        '<b>Google</b> Hangouts - Get Started with Hangouts on Desktop or Mobile',
-      link: 'https://hangouts.google.com/',
-      displayLink: 'hangouts.google.com',
-      snippet:
-        'Use Google Hangouts to keep in touch with one person or a group. Available on mobile or on desktop, start making video or voice calls today.',
+        '<b>Superman</b> &#39;78 Is the Sequel Fans Always Wanted | Den of Geek',
+      link: 'https://www.denofgeek.com/wp-content/uploads/2022/05/superman-78-dc-comics.jpeg',
+      displayLink: 'www.denofgeek.com',
+      snippet: "Superman '78 Is the Sequel Fans Always Wanted | Den of Geek",
       htmlSnippet:
-        'Use <b>Google</b> Hangouts to keep in touch with one person or a group. Available on mobile or on desktop, start making video or voice calls today.',
-      cacheId: 'GWWQi6h3N3kJ',
-      formattedUrl: 'https://hangouts.google.com/',
-      htmlFormattedUrl: 'https://hangouts.<b>google</b>.com/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRW-ic6rMSvE4sh6NpBLHO68r5UoaHsKraR8Y_jvdzyjzHCCPxbnTF-7oc',
-            width: '128',
-            height: '128',
-          },
-        ],
-        metatags: [
-          {
-            'og:image':
-              'https://www.gstatic.com/images/icons/material/product/2x/hangouts_64dp.png',
-            'og:type': 'website',
-            'twitter:card': 'product',
-            'twitter:title':
-              'Google Hangouts - Get Started with Hangouts on Desktop or Mobile',
-            'twitter:site': '@google',
-            viewport: 'width=device-width, initial-scale=1',
-            'twitter:description':
-              'Use Google Hangouts to keep in touch with one person or a group. Available on mobile or on desktop, start making video or voice calls today.',
-            'og:title':
-              'Google Hangouts - Get Started with Hangouts on Desktop or Mobile',
-            'og:description':
-              'Use Google Hangouts to keep in touch with one person or a group. Available on mobile or on desktop, start making video or voice calls today.',
-            'twitter:image:src':
-              'https://www.gstatic.com/images/icons/material/product/2x/hangouts_64dp.png',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://www.gstatic.com/images/icons/material/product/2x/hangouts_64dp.png',
-          },
-        ],
+        '<b>Superman</b> &#39;78 Is the Sequel Fans Always Wanted | Den of Geek',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.denofgeek.com/comics/superman-78-is-the-sequel-fans-always-wanted/',
+        height: 900,
+        width: 1200,
+        byteSize: 218346,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-qY99Re235MJXgxRuTuKHTVIg_yhQCTK010fF_IlRVsQPE042CITp2Q&s',
+        thumbnailHeight: 113,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: 'customsearch#result',
-      title: 'Google Business Profile - Get Listed on Google',
-      htmlTitle: '<b>Google</b> Business Profile - Get Listed on <b>Google</b>',
-      link: 'https://www.google.com/business/',
-      displayLink: 'www.google.com',
-      snippet:
-        'List your business on Google with a free Business Profile (formerly Google my Business). Turn people who find you on Search & Maps into new customers.',
-      htmlSnippet:
-        'List your business on <b>Google</b> with a free Business Profile (formerly <b>Google</b> my Business). Turn people who find you on Search &amp; Maps into new customers.',
-      cacheId: 'MndpGW0Hv7wJ',
-      formattedUrl: 'https://www.google.com/business/',
-      htmlFormattedUrl: 'https://www.<b>google</b>.com/business/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQOTamsDphd1iSgPa68uuNjC2rDXDJQ_uum-mQ4E5MYJeeseMnhaKfVTYU',
-            width: '225',
-            height: '225',
-          },
-        ],
-        metatags: [
-          {
-            'og:image':
-              'https://lh3.googleusercontent.com/mlUCKwnX9GvxtFmeqFCk93FlpM-fmMwUdrl31sP3Z2m8n6Kxy35Y9ln39dHTtuTbi0VW2mJ3rNbPKBfGqhR9fcrGO4I53vjBkk9jU9YZS_gevtedjDA',
-            'twitter:title': 'Google Business Profile - Get Listed on Google',
-            'og:type': 'website',
-            'twitter:card': 'summary',
-            'twitter:url': 'https://www.google.com/business/',
-            'og:title': 'Google Business Profile - Get Listed on Google',
-            'og:description':
-              'List your business on Google with a free Business Profile (formerly Google my Business). Turn people who find you on Search & Maps into new customers.',
-            'twitter:image':
-              'https://lh3.googleusercontent.com/mlUCKwnX9GvxtFmeqFCk93FlpM-fmMwUdrl31sP3Z2m8n6Kxy35Y9ln39dHTtuTbi0VW2mJ3rNbPKBfGqhR9fcrGO4I53vjBkk9jU9YZS_gevtedjDA',
-            referrer: 'no-referrer',
-            viewport: 'width=device-width, initial-scale=1.0',
-            'twitter:description':
-              'List your business on Google with a free Business Profile (formerly Google my Business). Turn people who find you on Search & Maps into new customers.',
-            'og:locale': 'en',
-            'og:url': 'https://www.google.com/business/',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://lh3.googleusercontent.com/mlUCKwnX9GvxtFmeqFCk93FlpM-fmMwUdrl31sP3Z2m8n6Kxy35Y9ln39dHTtuTbi0VW2mJ3rNbPKBfGqhR9fcrGO4I53vjBkk9jU9YZS_gevtedjDA',
-          },
-        ],
+      title: 'Superman - Wikipedia',
+      htmlTitle: '<b>Superman</b> - Wikipedia',
+      link: 'https://upload.wikimedia.org/wikipedia/en/3/35/Supermanflying.png',
+      displayLink: 'en.wikipedia.org',
+      snippet: 'Superman - Wikipedia',
+      htmlSnippet: '<b>Superman</b> - Wikipedia',
+      mime: 'image/png',
+      fileFormat: 'image/png',
+      image: {
+        contextLink: 'https://en.wikipedia.org/wiki/Superman',
+        height: 375,
+        width: 250,
+        byteSize: 95381,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcDNo9hCKYC_xWIMbs7oVzXQSDPa1bsDR3jemTWMbpoXeS480b9i5Z_g&s',
+        thumbnailHeight: 122,
+        thumbnailWidth: 81,
       },
     },
     {
       kind: 'customsearch#result',
-      title: 'Google Cloud: Cloud Computing Services',
-      htmlTitle: '<b>Google</b> Cloud: Cloud Computing Services',
-      link: 'https://cloud.google.com/',
-      displayLink: 'cloud.google.com',
-      snippet:
-        'Meet your business challenges head on with cloud computing services from Google, including data management, hybrid & multi-cloud, and AI & ML.',
-      htmlSnippet:
-        'Meet your business challenges head on with cloud computing services from <b>Google</b>, including data management, hybrid &amp; multi-cloud, and AI &amp; ML.',
-      cacheId: '80SWJ_cSDhwJ',
-      formattedUrl: 'https://cloud.google.com/',
-      htmlFormattedUrl: 'https://cloud.<b>google</b>.com/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQVQyWs5Uso3eBwGJxz7yY-ItXN2aDgKeFgK1iz7jf83Vnzzf6TBA60Pv8',
-            width: '310',
-            height: '163',
-          },
-        ],
-        document: [{}],
-        metatags: [
-          {
-            'og:image':
-              'https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png',
-            'og:type': 'website',
-            'theme-color': '#039be5',
-            'og:image:width': '1200',
-            'twitter:card': 'summary_large_image',
-            'google-signin-client-id':
-              '721724668570-nbkv1cfusk7kk4eni4pjvepaus73b13t.apps.googleusercontent.com',
-            'og:site_name': 'Google Cloud',
-            'og:title': 'Cloud Computing Services  |  Google Cloud',
-            'og:image:height': '630',
-            'og:description':
-              'Meet your business challenges head on with cloud computing services from Google, including data management, hybrid &amp; multi-cloud, and AI &amp; ML.',
-            'track-metadata-page_publishing_platform': 'bricks',
-            viewport: 'width=device-width, initial-scale=1',
-            'og:locale': 'en',
-            'google-signin-scope':
-              'profile email https://www.googleapis.com/auth/developerprofiles https://www.googleapis.com/auth/developerprofiles.award https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/webhistory',
-            'track-metadata-page_template': 'Homepage v2 Template',
-            'og:url': 'https://cloud.google.com/',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://cloud.google.com/_static/cloud/images/social-icon-google-cloud-1200-630.png',
-          },
-        ],
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Personal Cloud Storage & File Sharing Platform - Google',
+      title:
+        "DC's Superman Flies into Fortnite: Unlock Clark Kent, Superman ...",
       htmlTitle:
-        'Personal Cloud Storage &amp; File Sharing Platform - <b>Google</b>',
-      link: 'https://www.google.com/drive/',
-      displayLink: 'www.google.com',
+        'DC&#39;s <b>Superman</b> Flies into Fortnite: Unlock Clark Kent, <b>Superman</b> ...',
+      link: 'https://cdn2.unrealengine.com/fortnite-battle-pass-superman-1920x1080-fa44a01fe96b.jpg',
+      displayLink: 'www.epicgames.com',
       snippet:
-        "Learn about Google Drive's file sharing platform that provides a personal, secure cloud storage option to share content with other users.",
+        "DC's Superman Flies into Fortnite: Unlock Clark Kent, Superman ...",
       htmlSnippet:
-        'Learn about <b>Google</b> Drive&#39;s file sharing platform that provides a personal, secure cloud storage option to share content with other users.',
-      cacheId: 'uqmo4lUVIlEJ',
-      formattedUrl: 'https://www.google.com/drive/',
-      htmlFormattedUrl: 'https://www.<b>google</b>.com/drive/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRs7vR_BAK3tlQJ047bZrV2u8zYJT5r6aHjiSKpEsXamnQ3oA9nVAOh3A',
-            width: '36',
-            height: '36',
-          },
-        ],
-        metatags: [
-          {
-            referrer: 'no-referrer',
-            'og:image':
-              'https://kstatic.googleusercontent.com/files/d57b24106c34c7e50ef3d98423b94ddaf35ad2da73a9b9d4d12f52dbb9dd4c08c2957f6255ab8690d5ef0b32cff8287e09577d05e479d263e872160c4c9e8363',
-            'twitter:title':
-              'Personal Cloud Storage & File Sharing Platform - Google',
-            'og:type': 'website',
-            viewport: 'initial-scale=1, minimum-scale=1, width=device-width',
-            'twitter:url': 'https://twitter.com/googledrive',
-            'twitter:description':
-              'Learn about Google Drive’s file sharing platform that provides a personal, secure cloud storage option to share content with other users.',
-            'og:title':
-              'Personal Cloud Storage & File Sharing Platform - Google',
-            'twitter:creator': 'Google',
-            'og:description':
-              'Learn about Google Drive’s file sharing platform that provides a personal, secure cloud storage option to share content with other users.',
-            'twitter:image':
-              'https://kstatic.googleusercontent.com/files/d57b24106c34c7e50ef3d98423b94ddaf35ad2da73a9b9d4d12f52dbb9dd4c08c2957f6255ab8690d5ef0b32cff8287e09577d05e479d263e872160c4c9e8363',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://kstatic.googleusercontent.com/files/d57b24106c34c7e50ef3d98423b94ddaf35ad2da73a9b9d4d12f52dbb9dd4c08c2957f6255ab8690d5ef0b32cff8287e09577d05e479d263e872160c4c9e8363',
-          },
-        ],
+        'DC&#39;s <b>Superman</b> Flies into Fortnite: Unlock Clark Kent, <b>Superman</b> ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.epicgames.com/fortnite/en-US/news/dcs-superman-flies-into-fortnite-unlock-clark-kent-superman-and-more-with-special-quests',
+        height: 1080,
+        width: 1920,
+        byteSize: 162083,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSi_CCriWIwFjgfeJVDMu2ySi6kp5KxKX1fEsaUrFMfOWwveY50QkBiuw&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: 'customsearch#result',
-      title: 'Google Analytics',
-      htmlTitle: '<b>Google</b> Analytics',
-      link: 'https://analytics.google.com/analytics/web/',
-      displayLink: 'analytics.google.com',
-      snippet:
-        'Google Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.',
-      htmlSnippet:
-        '<b>Google</b> Analytics lets you measure your advertising ROI as well as track your Flash, video, and social networking sites and applications.',
-      formattedUrl: 'https://analytics.google.com/analytics/web/',
-      htmlFormattedUrl: 'https://analytics.<b>google</b>.com/analytics/web/',
-      pagemap: {
-        metatags: [
-          {
-            viewport: 'width=device-width, initial-scale=1',
-            'format-detection': 'telephone=no',
-          },
-        ],
-      },
-    },
-    {
-      kind: 'customsearch#result',
-      title: 'Google Ads - Get More Customers & Generate Leads with Online Ads',
+      title: 'Superman & Lois Keeps its High-Flying Hero Grounded | DC',
       htmlTitle:
-        '<b>Google</b> Ads - Get More Customers &amp; Generate Leads with Online Ads',
-      link: 'https://ads.google.com/home/',
-      displayLink: 'ads.google.com',
-      snippet:
-        'Discover how Google can help grow your business. Drive sales, generate leads & increase brand awareness with online ads.',
+        '<b>Superman</b> &amp; Lois Keeps its High-Flying Hero Grounded | DC',
+      link: 'https://www.dccomics.com/sites/default/files/field/image/SLToddHelbingInt_blog_60a335eae0cf75.45690858.jpg',
+      displayLink: 'www.dccomics.com',
+      snippet: 'Superman & Lois Keeps its High-Flying Hero Grounded | DC',
       htmlSnippet:
-        'Discover how <b>Google</b> can help grow your business. Drive sales, generate leads &amp; increase brand awareness with online ads.',
-      cacheId: 'ngTlaLkEiaEJ',
-      formattedUrl: 'https://ads.google.com/home/',
-      htmlFormattedUrl: 'https://ads.<b>google</b>.com/home/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSp6HTLKSdybCwK-dbzcKnXBwSOWXFyki0EQkKJxNLRQOZgLWpbcuztgh8',
-            width: '225',
-            height: '225',
-          },
-        ],
-        metatags: [
-          {
-            'og:image':
-              'https://lh3.googleusercontent.com/nupo3HWMIUeuul9r2IBSfpBo568bL-STG9nA71dUuW97DnhAXFgm2WWjczhTFqRHQZRf5VA-_PmxIZaIAXhOUrzfr5unPjFuW9za=w0',
-            'og:image:width': '1200',
-            viewport: 'initial-scale=1, minimum-scale=1, width=device-width',
-            'og:image:height': '1200',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://lh3.googleusercontent.com/nupo3HWMIUeuul9r2IBSfpBo568bL-STG9nA71dUuW97DnhAXFgm2WWjczhTFqRHQZRf5VA-_PmxIZaIAXhOUrzfr5unPjFuW9za=w0',
-          },
-        ],
+        '<b>Superman</b> &amp; Lois Keeps its High-Flying Hero Grounded | DC',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.dccomics.com/blog/2021/05/18/superman-lois-keeps-its-high-flying-hero-grounded',
+        height: 772,
+        width: 900,
+        byteSize: 190470,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcruDldy-VMNsZ-CUieAftnCI-rnF-vIF5FOHI9gfQQRIwSrMT2XKIaQ&s',
+        thumbnailHeight: 125,
+        thumbnailWidth: 146,
       },
     },
     {
       kind: 'customsearch#result',
-      title: 'Analytics Tools & Solutions for Your Business - Google Analytics',
+      title: 'Superman - Wikipedia',
+      htmlTitle: '<b>Superman</b> - Wikipedia',
+      link: 'https://upload.wikimedia.org/wikipedia/en/thumb/3/35/Supermanflying.png/220px-Supermanflying.png',
+      displayLink: 'en.wikipedia.org',
+      snippet: 'Superman - Wikipedia',
+      htmlSnippet: '<b>Superman</b> - Wikipedia',
+      mime: 'image/png',
+      fileFormat: 'image/png',
+      image: {
+        contextLink: 'https://en.wikipedia.org/wiki/Superman',
+        height: 330,
+        width: 220,
+        byteSize: 76081,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeZIbSJhMbTNCTlX1M2lIQVLMyrDIpQnzKaqYyo_spDjwarqobBmVa&s',
+        thumbnailHeight: 119,
+        thumbnailWidth: 79,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        'Step Onto the Streets of Metropolis with Lois & Clark in Superman ...',
       htmlTitle:
-        'Analytics Tools &amp; Solutions for Your Business - <b>Google</b> Analytics',
-      link: 'https://marketingplatform.google.com/about/analytics/',
-      displayLink: 'marketingplatform.google.com',
+        'Step Onto the Streets of Metropolis with Lois &amp; Clark in <b>Superman</b> ...',
+      link: 'https://www.dccomics.com/sites/default/files/Superman-78_marquee_6102d671912c30.95014702.jpg',
+      displayLink: 'www.dccomics.com',
       snippet:
-        'Google Analytics gives you the tools you need to better understand your customers. You can then use those business insights to take action, ...',
+        'Step Onto the Streets of Metropolis with Lois & Clark in Superman ...',
       htmlSnippet:
-        '<b>Google</b> Analytics gives you the tools you need to better understand your customers. You can then use those business insights to take action,&nbsp;...',
-      cacheId: 'z59It3ESA-UJ',
-      formattedUrl: 'https://marketingplatform.google.com/about/analytics/',
-      htmlFormattedUrl:
-        'https://marketingplatform.<b>google</b>.com/about/analytics/',
-      pagemap: {
-        cse_thumbnail: [
-          {
-            src: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIk6QSF6nHHav4yIk2jCz_CKE9J2Y0qFUvTvef8DuEFPQDp92wzH5yzr9b',
-            width: '295',
-            height: '171',
-          },
-        ],
-        metatags: [
-          {
-            'og:image':
-              'https://lh3.googleusercontent.com/oz5bCMIFGBqul5z56AbXXgjTcrJQmtYeXJRijeeobpk3qP9CMLrJtkh1LUKkj5fr2pfXxnRu10R0zeFiyCB5dYRWqqvhwSGfTJktKg',
-            'og:type': 'Website',
-            'twitter:card': 'summary_large_image',
-            'twitter:title':
-              'Analytics Tools & Solutions for Your Business - Google Analytics',
-            'og:site_name': 'Google Marketing Platform',
-            'og:title':
-              'Analytics Tools & Solutions for Your Business - Google Analytics',
-            'og:description':
-              'Google Analytics gives you the tools you need to better understand your customers. You can then use those business insights to take action, such as improving your website, creating tailored audience lists, and more.',
-            'twitter:image':
-              'https://lh3.googleusercontent.com/oz5bCMIFGBqul5z56AbXXgjTcrJQmtYeXJRijeeobpk3qP9CMLrJtkh1LUKkj5fr2pfXxnRu10R0zeFiyCB5dYRWqqvhwSGfTJktKg',
-            referrer: 'no-referrer',
-            'twitter:site': '@GMktgPlatform',
-            viewport: 'initial-scale=1, minimum-scale=1, width=device-width',
-            'twitter:description':
-              'Google Analytics gives you the tools you need to better understand your customers. You can then use those business insights to take action, such as improving your website, creating tailored audience lists, and more.',
-            'og:url': 'https://marketingplatform.google.com/about/analytics/',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'https://lh3.googleusercontent.com/oz5bCMIFGBqul5z56AbXXgjTcrJQmtYeXJRijeeobpk3qP9CMLrJtkh1LUKkj5fr2pfXxnRu10R0zeFiyCB5dYRWqqvhwSGfTJktKg',
-          },
-        ],
+        'Step Onto the Streets of Metropolis with Lois &amp; Clark in <b>Superman</b> ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.dccomics.com/blog/2021/07/29/step-onto-the-streets-of-metropolis-with-lois-clark-in-superman-78',
+        height: 1118,
+        width: 1987,
+        byteSize: 1052428,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTop88OEFVGHPfvMcZyiuLVQANE0Xuy4vTnRIyfdTEGsmHF-f_nJ2YzRA&s',
+        thumbnailHeight: 84,
+        thumbnailWidth: 150,
       },
     },
     {
       kind: 'customsearch#result',
-      title: 'Google',
-      htmlTitle: '<b>Google</b>',
-      link: 'https://images.google.com/',
-      displayLink: 'images.google.com',
-      snippet: 'Google Images. The most comprehensive image search on the web.',
-      htmlSnippet:
-        '<b>Google</b> Images. The most comprehensive image search on the web.',
-      cacheId: '53q8dRS-MysJ',
-      formattedUrl: 'https://images.google.com/',
-      htmlFormattedUrl: 'https://images.<b>google</b>.com/',
-      pagemap: {
-        metatags: [
-          {
-            referrer: 'origin',
-            viewport: 'width=device-width,minimum-scale=1.0',
-            google: 'notranslate',
-            'format-detection': 'telephone=no',
-          },
-        ],
+      title: 'Superman (disambiguation) | DC Database | Fandom',
+      htmlTitle: '<b>Superman</b> (disambiguation) | DC Database | Fandom',
+      link: 'https://static.wikia.nocookie.net/marvel_dc/images/a/a5/Superman_Vol_5_1_Textless.jpg/revision/latest?cb=20180711061148',
+      displayLink: 'dc.fandom.com',
+      snippet: 'Superman (disambiguation) | DC Database | Fandom',
+      htmlSnippet: '<b>Superman</b> (disambiguation) | DC Database | Fandom',
+      mime: 'image/',
+      fileFormat: 'image/',
+      image: {
+        contextLink: 'https://dc.fandom.com/wiki/Superman',
+        height: 1967,
+        width: 1296,
+        byteSize: 230088,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT47JXssybcTBWpATVG2ofOev7HNe26L3a3CBdGvrz9KH8F2_L8vcApaw&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 99,
       },
     },
     {
       kind: 'customsearch#result',
-      title: 'Google Trends',
-      htmlTitle: '<b>Google</b> Trends',
-      link: 'https://trends.google.com/trends/',
-      displayLink: 'trends.google.com',
-      snippet:
-        'Showing 1 of 6 examples. Latest Stories and Insights. Explore how Google data can be used to tell stories. 2022 NBA Finals. The 2022 NBA Playoffs in trends.',
+      title: "Superman '78 Is the Sequel Fans Always Wanted | Den of Geek",
+      htmlTitle:
+        '<b>Superman</b> &#39;78 Is the Sequel Fans Always Wanted | Den of Geek',
+      link: 'https://www.denofgeek.com/wp-content/uploads/2022/05/superman-78-dc-comics.jpeg?resize=768%2C432',
+      displayLink: 'www.denofgeek.com',
+      snippet: "Superman '78 Is the Sequel Fans Always Wanted | Den of Geek",
       htmlSnippet:
-        'Showing 1 of 6 examples. Latest Stories and Insights. Explore how <b>Google</b> data can be used to tell stories. 2022 NBA Finals. The 2022 NBA Playoffs in trends.',
-      cacheId: 'Q_LrZAsVfloJ',
-      formattedUrl: 'https://trends.google.com/trends/',
-      htmlFormattedUrl: 'https://trends.<b>google</b>.com/trends/',
-      pagemap: {
-        metatags: [
-          {
-            'og:image': 'null',
-            'theme-color': '#4285F4',
-            'twitter:card': 'summary',
-            'og:image:width': '128',
-            'twitter:site': '@GoogleTrends',
-            'og:site_name': 'Google Trends',
-            viewport: 'width=device-width, minimum-scale=1, shrink-to-fit=no',
-            'og:title': 'Google Trends',
-            'og:image:height': '128',
-          },
-        ],
-        cse_image: [
-          {
-            src: 'null',
-          },
-        ],
+        '<b>Superman</b> &#39;78 Is the Sequel Fans Always Wanted | Den of Geek',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.denofgeek.com/comics/superman-78-is-the-sequel-fans-always-wanted/',
+        height: 432,
+        width: 768,
+        byteSize: 74399,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFjt2Bxoh7BozMjPMt-PXfmHw0lEx3_vU3i9vqJx6cw6BMBVCSiuS_Dw&s',
+        thumbnailHeight: 80,
+        thumbnailWidth: 142,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        "Superman drops 'and the American Way' for inclusive motto, DC ...",
+      htmlTitle:
+        '<b>Superman</b> drops &#39;and the American Way&#39; for inclusive motto, DC ...',
+      link: 'https://cdn.vox-cdn.com/thumbor/MgpH_uOL3gMfjFotLKioI6Sm3lE=/181x404:2802x2020/1200x800/filters:focal(1260x1260:1740x1740)/cdn.vox-cdn.com/uploads/chorus_image/image/70004345/Superman_New_Mission_Statement.0.jpg',
+      displayLink: 'www.polygon.com',
+      snippet:
+        "Superman drops 'and the American Way' for inclusive motto, DC ...",
+      htmlSnippet:
+        '<b>Superman</b> drops &#39;and the American Way&#39; for inclusive motto, DC ...',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.polygon.com/comics/22729333/superman-new-motto-american-way-2021',
+        height: 800,
+        width: 1200,
+        byteSize: 140604,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6sT_p4Lnb_pnDG_N1HXDbe0J_fx6BEmXxKnmDW5qvdQhdUZ8555oLB-k&s',
+        thumbnailHeight: 100,
+        thumbnailWidth: 150,
+      },
+    },
+    {
+      kind: 'customsearch#result',
+      title:
+        "A Black Superman? It's Happened, and Could Again. - The New York Times",
+      htmlTitle:
+        'A Black <b>Superman</b>? It&#39;s Happened, and Could Again. - The New York Times',
+      link: 'https://static01.nyt.com/images/2021/04/23/multimedia/23blackhistory-gustines1/merlin_186389334_8b6f0e5f-5e6f-413a-b27d-10ba14e57a52-mobileMasterAt3x.jpg',
+      displayLink: 'www.nytimes.com',
+      snippet:
+        "A Black Superman? It's Happened, and Could Again. - The New York Times",
+      htmlSnippet:
+        'A Black <b>Superman</b>? It&#39;s Happened, and Could Again. - The New York Times',
+      mime: 'image/jpeg',
+      fileFormat: 'image/jpeg',
+      image: {
+        contextLink:
+          'https://www.nytimes.com/2021/04/23/arts/black-superman.html',
+        height: 2740,
+        width: 1800,
+        byteSize: 1028726,
+        thumbnailLink:
+          'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhKhdaSZZM8tKoOd2Qv5EdfZgmC6wgNOMdT-uKkVl5p1zIZcpqaJhNug&s',
+        thumbnailHeight: 150,
+        thumbnailWidth: 99,
       },
     },
   ],
 };
 
-export default response
+export default response;

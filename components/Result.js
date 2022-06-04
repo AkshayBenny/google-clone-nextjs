@@ -13,13 +13,9 @@ export default function Result({ data }) {
         return (
           <div key={index} className='group py-6'>
             <a href={item.link}>
-              {' '}
-              <a
-                href={item.link}
-                className='text-black truncate text-sm font-normal cursor-pointer'
-              >
+              <p className='text-black truncate text-sm font-normal cursor-pointer'>
                 {item.formattedUrl}
-              </a>
+              </p>
               <h2 className='font-medium truncate cursor-pointer transition text-blue-700 group-hover:underline text-2xl group'>
                 {item.title}
               </h2>

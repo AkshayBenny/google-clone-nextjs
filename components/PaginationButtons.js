@@ -5,7 +5,7 @@ export default function PaginationButtons() {
   const router = useRouter();
   const startIndex = Number(router.query.start) || 1;
   return (
-    <div className=' cursor-pointer space-x-24 flex justify-center items-center'>
+    <div className='cursor-pointer space-x-24 flex justify-center items-center'>
       {startIndex > 10 && (
         <Link
           href={`/search?term=${router.query.term}&searchType=${
